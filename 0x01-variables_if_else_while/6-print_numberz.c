@@ -4,7 +4,7 @@
  * main - Prints all single digits of base 10 followed by new line
  *
  * Return: return 0
- * */
+*/
 int main(void)
 {
 	int digit;
