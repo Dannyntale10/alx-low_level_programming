@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <ctype.h>
-/**
+/***
  * main - Program to print alphabet letter in all cases followed by new line
  *
  * Return: return 0
  */
 int main(void)
 {
+
 	int letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
@@ -20,7 +21,7 @@ int main(void)
 			{
 				putchar(letter);
 			}
-		 break;
+			break;
 		}
 	}
 	putchar('\n');
