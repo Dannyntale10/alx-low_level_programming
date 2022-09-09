@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-/***
+/**
  * main - Program to print alphabet letter in all cases followed by new line
  *
  * Return: return 0
