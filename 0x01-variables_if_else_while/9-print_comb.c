@@ -3,6 +3,8 @@
 /**
  * main - Print all single digits with , and space folowed by new line
  *
+ * Return: return 0
+ *
 */
 int main(void)
 {
