@@ -13,7 +13,7 @@ int main(void)
 
 	for (hund = 0; hund <= 9; hund++)
 	{
-		for (tens = hund + 1; tens <= 9; ones++)
+		for (tens = hund + 1; tens <= 9; tens++)
 		{
 			for (ones = tens + 1; ones <= 9; ones++)
 			{
