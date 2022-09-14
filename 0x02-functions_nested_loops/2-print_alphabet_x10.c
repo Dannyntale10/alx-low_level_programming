@@ -9,9 +9,9 @@ void print_alphabet_x10(void)
 {
 	int line, k;
 
-	for (line = 0, line <= 9; ++line)
+	for (line = 0; line <= 9; ++line)
 	{
-		for (k = 'a'; k <= 'z'; k++)
+		for (k = 'a'; k <= 'z'; ++k)
 
 			_putchar(k);
 
