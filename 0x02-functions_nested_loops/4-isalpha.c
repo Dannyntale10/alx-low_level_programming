@@ -1,24 +1,25 @@
+#include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _isalpha - function that checks for alphabetic character
- *
- * @c: char type letter
- *
- * Return: return 0 on success and 1 on fail
+ * @c: int
+ *description - return 1 if upper or lower
+ * Return: return 1 if alpabet and 0 on fail
 */
 
 int _isalpha(int c)
 {
-	int c = isalpha(c);
-
-	if (i > 0)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
-		else
-		{
-			return (0);
-		}
+	else if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
