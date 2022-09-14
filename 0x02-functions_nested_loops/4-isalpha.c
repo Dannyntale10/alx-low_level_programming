@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype>
+
 /**
  * _isalpha - function that checks for alphabetic character
  *
@@ -7,6 +8,7 @@
  *
  * Return: return 0 on success and 1 on fail
 */
+
 int _isalpha(int c)
 {
 	int c = isalpha(c);
