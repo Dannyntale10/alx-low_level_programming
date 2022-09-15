@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	isupper();
+	_isupper();
 
 		return (0);
 }
